@@ -1,6 +1,6 @@
-package com.raphael.operators;
+package com.raphael.operators.augmented_operators;
 
-public class AugmentedOperators {
+public class AugmentedOperator {
     public static void main(String[] args) {
 
         int numberOne = 10;
