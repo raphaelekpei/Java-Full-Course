@@ -1,4 +1,4 @@
-package com.raphael.operators;
+package com.raphael.operators.increment_decrement_operator;
 
 public class DecrementOperator {
 

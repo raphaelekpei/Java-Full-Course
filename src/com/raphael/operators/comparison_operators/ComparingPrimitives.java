@@ -1,6 +1,6 @@
-package com.raphael.operators;
+package com.raphael.operators.comparison_operators;
 
-public class ComparisonOperators {
+public class ComparingPrimitives {
     public static void main(String[] args) {
         System.out.println(10 > 10);
         System.out.println(10 >= 10);
