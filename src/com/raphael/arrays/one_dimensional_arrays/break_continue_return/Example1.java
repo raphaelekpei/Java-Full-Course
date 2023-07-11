@@ -1,6 +1,5 @@
 package com.raphael.arrays.one_dimensional_arrays.break_continue_return;
 
-//
 public class Example1 {
     public static void main(String[] args) {
         var numbers = new int[] {1, 2, 3, 4, 5};
