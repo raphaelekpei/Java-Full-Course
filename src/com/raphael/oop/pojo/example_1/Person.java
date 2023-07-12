@@ -14,7 +14,7 @@ public class Person {
 
     private Car[] cars;
 
-    private static int numberOfInstantiations;
+    private static int personCount = 0;
 
 
     public Person(String firstName, String lastName, int age, Address address, Gender gender, Cat[] cats, Car[] cars) {
@@ -25,7 +25,7 @@ public class Person {
         this.gender = gender;
         this.cats = cats;
         this.cars = cars;
-        numberOfInstantiations++; // this increments when a person is instantiated
+        personCount++; // this increments when a person is instantiated
     }
 
     public Person(String firstName, String lastName, int age, Address address, Gender gender) {
@@ -34,8 +34,7 @@ public class Person {
         this.age = age;
         this.address = address;
         this.gender = gender;
-        numberOfInstantiations++;
-        calNumberOfInstantiations();
+        personCount++;
     }
 
     public String getFirstName() {
@@ -92,14 +91,6 @@ public class Person {
 
     public void setCars(Car[] cars) {
         this.cars = cars;
-    }
-
-    public static int getNumberOfInstantiations() {
-        return numberOfInstantiations++;
-    }
-
-    public static void calNumberOfInstantiations() {
-        numberOfInstantiations++;
     }
 
     @Override
