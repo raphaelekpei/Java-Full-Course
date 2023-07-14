@@ -2,7 +2,8 @@ package com.raphael.oop.static_block;
 
 public class example7 {
 
-    private static Personn[] PEOPLE = null;
+    private static
+    Personn[] PEOPLE = null;
 
     static {
         PEOPLE = new Personn[10];
