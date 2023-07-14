@@ -13,7 +13,10 @@ public class Programmer extends Employee{
     }
 
     public void write_code(){
-        System.out.println("I am writing");
+        System.out.println(super.getName() + " is writing");
+    }
+    public void read_code(){
+        System.out.println(getName() + " is reading");
     }
 
     public String[] getProgrammingLanguages() {
